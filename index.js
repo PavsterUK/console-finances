@@ -7,17 +7,17 @@ let profDiffSum = 0;
 let prevProf = 0;
 
 for (let i = 0; i < data.length; i++) {
-  let currProff = data[i][1];
-  totalProfSum += currProff;
-  profDiffSum += currProff - prevProf;
+  let currProf = data[i][1];
+  totalProfSum += currProf;
+  profDiffSum += currProf - prevProf;
 
-  if (currProff - prevProf > greatInc) {
-    greatInc = currProff;
-  } else if (currProff - prevProf < greatDecr) {
-    greatDecr = currProff;
+  if (currProf - prevProf > greatInc) {
+    greatInc = currProf;
+  } else if (currProf - prevProf < greatDecr) {
+    greatDecr = currProf;
   }
 
-  prevProf = currProff;
+  prevProf = currProf;
 }
 
 console.log("Financial Analysis");
