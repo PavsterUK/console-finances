@@ -7,4 +7,5 @@
 https://pavsteruk.github.io/console-finances/
 
 ### Screenshot
-![1](https://user-images.githubusercontent.com/48164207/202003995-31c90450-b214-4583-8801-796f0d79341a.png)
+
+![2](https://user-images.githubusercontent.com/48164207/202004269-0e15c635-6639-4380-9436-b17892979602.png)
