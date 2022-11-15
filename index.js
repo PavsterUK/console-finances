@@ -3,9 +3,9 @@ import { data } from "./data.js";
 let totalProfSum = 0;
 let greatInc = 0;
 let greatDecr = 0;
-
 let profDiffSum = 0;
 let prevProf = 0;
+
 for (let i = 0; i < data.length; i++) {
   let currProff = data[i][1];
   totalProfSum += currProff;
