@@ -1,8 +1,8 @@
 import { data } from "./data.js";
 
 let totalProfSum = 0;
-var greatInc = 0;
-var greatDecr = 0;
+let greatInc = 0;
+let greatDecr = 0;
 
 let profDiffSum = 0;
 let prevProf = 0;
